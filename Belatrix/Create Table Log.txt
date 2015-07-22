@@ -1,0 +1,25 @@
+﻿USE [BelatrixDb]
+GO
+
+/****** Object:  Table [dbo].[Log]    Script Date: 7/22/2015 3:01:20 PM ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+SET ANSI_PADDING ON
+GO
+
+CREATE TABLE [dbo].[Log](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[Message] [varchar](500) NULL,
+	[MessageType] [int] NULL
+) ON [PRIMARY]
+
+GO
+
+SET ANSI_PADDING OFF
+GO
+
+
